@@ -4,6 +4,9 @@ kind: Deployment
 metadata:
   name: model-service
 spec:
+  selector:
+    matchLabels:
+      app: model-service
   template:
     spec:
       containers:
