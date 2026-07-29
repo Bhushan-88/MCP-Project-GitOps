@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth-service
-          image: 870578294087.dkr.ecr.ap-northeast-1.amazonaws.com/mcp-platform/auth-service:c049a212317df793b6e06623cb5e528ffca4c387
+          image: 870578294087.dkr.ecr.ap-northeast-1.amazonaws.com/mcp-platform/auth-service:38e5ea9ab9d69eeccbc6c23380156da73e28866b
           ports:
             - containerPort: 8001
           envFrom:
