@@ -8,5 +8,5 @@
     limits:
       cpu: "200m"
       memory: "256Mi"
-target:
-  kind: Deployment
+  target:
+   kind: Deployment
