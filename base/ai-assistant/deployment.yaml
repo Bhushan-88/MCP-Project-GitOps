@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: ai-assistant
-          image: 870578294087.dkr.ecr.ap-northeast-1.amazonaws.com/mcp-platform/ai-assistant:ad232fc844de19311422157e5b642dcc9175a0a5
+          image: 870578294087.dkr.ecr.ap-northeast-1.amazonaws.com/mcp-platform/ai-assistant:971d18d92f75152b2d19e33a083a5e64222e9cf0
           ports:
             - containerPort: 8003
           envFrom:
